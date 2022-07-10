@@ -19,9 +19,13 @@
             <!-- TODO: Put the dog video here. Set the width to 400 pixels and include controls -->
             <video width="400" controls>
                 <source scr="assets/videos/dog-video.mp4">
-            </video>
             <!-- Include a track tag with the src attribute set to "dog-video.vtt" -->
-                <track src="assets/text-tracks/dog-video.vtt"
+                <track 
+                    src="assets/text-tracks/dog-video.vtt"
+                    kind="subtitles"
+                    srclang="English"
+                    label="English Captions"/>
+            </video>        
         </div>
         <div>
             <h2>Subtitles</h2>
